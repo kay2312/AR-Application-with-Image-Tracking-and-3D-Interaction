@@ -1,0 +1,61 @@
+# Unity-specific folders and files
+[Libraries]
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+MemoryCaptures/
+UserSettings/
+CrashReports/
+
+# VS / Rider / IDE stuff
+.vscode/
+.idea/
+*.sln
+*.csproj
+*.unityproj
+*.pidb
+*.user
+*.suo
+*.tmp
+*.booproj
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Unity Addressables
+/Assets/StreamingAssets/aa.meta
+/Assets/StreamingAssets/aa/
+
+# Unity Cache / Analytics
+UnityPackageManager/
+UnityPackageManager-diagnostics/
+DiagnosticsReports/
+
+# Build output
+*.apk
+*.aab
+*.xcodeproj
+*.xcworkspace
+*.app
+
+# Optional: JetBrains Rider
+.idea/
+*.sln.iml
+
+# Optional: Gradle & Android Studio
+.gradle/
+*.apk
+*.aar
+local.properties
+
+# Optional: Git
+.gitattributes
+*.orig
+*.patch
+*.rej
